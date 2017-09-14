@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.temp.english_premier_league.activities.MainActivity"
+    tools:listitem="@layout/teams_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/teams_recycleview"
+    android:background="@mipmap/xaviesta"
+       >
+
+   </android.support.v7.widget.RecyclerView>

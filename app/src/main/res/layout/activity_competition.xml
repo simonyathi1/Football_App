@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.temp.english_premier_league.activities.CompetitionActivity"
+    tools:listitem="@layout/competition_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/competition_recycleview"
+    android:background="@drawable/messi2"
+    >
+
+</android.support.v7.widget.RecyclerView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.temp.english_premier_league.activities.SinglePlayerActivity">
+
+
+    <RelativeLayout
+        android:layout_gravity="bottom"
+android:id="@+id/single_player_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/fixture_small"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/single_player_postition_Code"
+            android:adjustViewBounds="true"
+            android:text="CDM"
+            android:textColor="@color/colorAccent"
+            android:textSize="13pt"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:id="@+id/single_player_name_BIG"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="team_name_placeholder"
+            android:textSize="13pt"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/single_player_postition_Code"
+
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@id/single_player_textView"
+        >
+        <ImageView
+            android:id="@+id/single_player_big_crest"
+            android:layout_width="180dp"
+            android:layout_height="180dp" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="#"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="35pt"
+            android:id="@+id/single_player_number_BIG"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/single_player_DOB_textView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Players"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="11pt"
+            android:layout_below="@+id/single_player_position"
+            />
+        <TextView
+            android:id="@+id/single_player_nationality_textView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Players"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="11pt"
+            android:layout_below="@+id/single_player_DOB_textView"
+
+
+            />
+        <TextView
+            android:id="@+id/single_player_ContractUntil_textView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Players"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="11pt"
+            android:layout_below="@+id/single_player_nationality_textView"
+
+            />
+        <TextView
+            android:id="@+id/single_player_market_value"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Players"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="11pt"
+            android:layout_below="@+id/single_player_ContractUntil_textView"
+
+
+            />
+        <TextView
+            android:id="@+id/single_player_position"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Players"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="11pt"
+            android:layout_below="@+id/single_player_big_crest"
+
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

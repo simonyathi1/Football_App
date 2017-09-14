@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fixture_small"
+    tools:context="com.example.temp.english_premier_league.activities.TeamActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/big_crest"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fixture_textView"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/fixture_small"
+                android:gravity="center"
+                android:text="Fixtures"
+                android:textColor="@color/colorWhite"
+                android:textSize="11pt"
+
+                />
+
+            <TextView
+                android:id="@+id/players_textView"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/fixture_small"
+                android:gravity="center"
+                android:text="Players"
+                android:textColor="@color/colorWhite"
+                android:textSize="11pt"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/team_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Players"
+            android:textColor="@color/colorWhite"
+            android:textSize="11pt"
+            />
+        <TextView
+            android:id="@+id/team_code_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Players"
+            android:textColor="@color/colorWhite"
+            android:textSize="11pt"
+
+
+            />
+        <TextView
+            android:id="@+id/short_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Players"
+            android:textColor="@color/colorWhite"
+            android:textSize="11pt"
+
+
+            />
+        <TextView
+            android:id="@+id/squad_market_value"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Players"
+            android:textColor="@color/colorWhite"
+            android:textSize="11pt"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
